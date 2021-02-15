@@ -1,6 +1,8 @@
 # ComputerCraft-WebSockets
 A basic but efficient tutorial to start using WebSockets in order to communicate with turtles from a terminal.
 
+![Alt text](./2021-02-15_03.15.03.png?raw=true "Hades welcomes you, mortal")
+
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
