@@ -37,4 +37,31 @@ Here is a list of everything you need:
 * A terminal
 * ~~Tom Cruise~~
 * A brain. It may sound like a joke but it isn't totally. Seriously, think by yourself. Even if this is a tutorial, some steps can fail for you for a reason or another. If you keep this in mind, you shouldn't have any difficulty in solving your problems. Otherwise, you can create an issue and i'll try to help you as much as I can.
+* [WS](https://www.npmjs.com/package/ws, "WS NPM link")
+* [ngrok](https://ngrok.com/, "Ngrok Official Website") Create an account and download it or if you're on linux, type "sudo snap install ngrok".
+
+### Let's Get Started !
+
+Ok so now, you should have your modded Minecraft working.
+Let's open our terminal and type :
+
+$ mkdir your_project_name
+$ cd your_project_name
+$ npm init -y
+
+Those commands will create a new directory and initialize the repository so we can use NPM by creating a new "package.json" file.
+Ok, so now, we'll need two things. The first is a starting script in your newly created "package.json".
+Open it and just above the "test" line in the scripts part, add this:
+
+"start": "node index.js",
+
+You can close it for now.
+Place in this directory the *index.js* file provided here.
+Type in your terminal:
+
+$ npm start
+
+You should see on the terminal that the server is initialized.
+Good job, your server is now up and running!
+But let's try to make the whole thing connect.
 
