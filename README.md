@@ -65,7 +65,7 @@ Type in your terminal:
 
 ```
 $ npm start
-
+```
 
 You should see on the terminal that the server is initialized.
 Good job, your server is now up and running!
