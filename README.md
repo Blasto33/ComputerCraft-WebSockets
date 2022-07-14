@@ -45,21 +45,27 @@ Here is a list of everything you need:
 Ok so now, you should have your modded Minecraft working.
 Let's open our terminal and type :
 
+```
 $ mkdir your_project_name
 $ cd your_project_name
 $ npm init -y
+```
 
 Those commands will create a new directory and initialize the repository so we can use NPM by creating a new "package.json" file.
 Ok, so now, we'll need two things. The first is a starting script in your newly created "package.json".
 Open it and just above the "test" line in the scripts part, add this:
 
+```
 "start": "node index.js",
+```
 
 You can close it for now.
 Place in this directory the *index.js* file provided [here](https://pastebin.com/bnSCj9fy).
 Type in your terminal:
 
+```
 $ npm start
+
 
 You should see on the terminal that the server is initialized.
 Good job, your server is now up and running!
