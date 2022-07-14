@@ -56,7 +56,7 @@ Open it and just above the "test" line in the scripts part, add this:
 "start": "node index.js",
 
 You can close it for now.
-Place in this directory the *index.js* file provided here.
+Place in this directory the *index.js* file provided [here](https://pastebin.com/bnSCj9fy).
 Type in your terminal:
 
 $ npm start
